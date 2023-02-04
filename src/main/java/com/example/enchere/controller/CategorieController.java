@@ -14,7 +14,7 @@ import com.example.enchere.response.Succes;
 import com.example.enchere.service.CategorieService;
 
 
-@CrossOrigin(origins = { "*" }, maxAge = 4800, allowCredentials = "false")
+@CrossOrigin("*")
 @RestController
 public class CategorieController {
 
